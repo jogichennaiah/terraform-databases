@@ -1,10 +1,10 @@
-variable "VPC_CIDR" {}
 variable "ENV" {}
-variable "AZ" {}
-variable "PUBLIC_SUBNET_CIDR" {}
-variable "PRIVATE_SUBNET_CIDR" {}
-variable "DEFAULT_VPC_ID" {}
-variable "DEFAULT_VPC_CIDR" {}
-variable "DEFAILT_VPC_RT" {}
 
+#MySQL Variables
+variable "MYSQL_STORAGE" {}
+variable "MYSQL_ENGINE_VERSION" {}
+variable "MYSQL_INSTANCE_TYPE" {}
 
+#DocDB Variables
+variable "DOCDB_INSTANCE_TYPE" {}
+variable "DOCDB_INSTANCE_COUNT" {}
