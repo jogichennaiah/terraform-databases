@@ -26,6 +26,6 @@ module "mysql" {
     DOCDB_INSTANCE_TYPE  = var.DOCDB_INSTANCE_TYPE
 }
 
-output "data" {
-  value = module.docdb.example
-}
+#output "data" {
+#  value = module.docdb.example
+#}
