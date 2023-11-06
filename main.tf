@@ -23,3 +23,6 @@ module "mysql" {
     MYSQL_INSTANCE_TYPE  = var.MYSQL_INSTANCE_TYPE
 }
 
+output "data" {
+  value = module.docdb.example
+}
