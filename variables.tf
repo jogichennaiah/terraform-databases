@@ -8,6 +8,7 @@ variable "MYSQL_INSTANCE_TYPE" {}
 #DocDB Variables
 variable "DOCDB_INSTANCE_TYPE" {}
 variable "DOCDB_INSTANCE_COUNT" {}
+variable "DOCDB_INSTANCE_PORT" {}
 
 #REDIS variable
 variable "REDIS_INSTANCE_TYPE" {} 
