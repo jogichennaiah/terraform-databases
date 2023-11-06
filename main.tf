@@ -3,6 +3,8 @@ module "docdb" {
     ENV                  = var.ENV  
     DOCDB_INSTANCE_TYPE  = var.DOCDB_INSTANCE_TYPE
     DOCDB_INSTANCE_COUNT = var.DOCDB_INSTANCE_COUNT
+    DOCDB_INSTANCE_PORT  = var.DOCDB_INSTANCE_PORT
+
 }
 
 module "redis" {
