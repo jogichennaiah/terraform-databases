@@ -26,6 +26,13 @@ module "mysql" {
     DOCDB_INSTANCE_TYPE  = var.DOCDB_INSTANCE_TYPE
 }
 
+module "rabbitmq" {
+  source                 = "./vendor/modules/rabbitmq"
+  ENV                    = var.ENV
+  RABBITMQ_PORT_NUMBER   = var. RABBITMQ_PORT_NUMBER
+  RABBITMQ_INSTANCE_TYPE = var.RABBITMQ_INSTANCE_TYPE
+}
+
 #output "data" {
 #  value = module.docdb.example
 #}
